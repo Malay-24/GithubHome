@@ -1,0 +1,83 @@
+#Footer.Footer {
+    display: grid;
+    grid-template-columns: 30% 50%;
+    justify-content: center;
+    background:#0d1117;
+    color: white;
+    padding: 100px 0;
+    gap: 15px;
+  }
+
+  .Footer ul  li {
+      font-size: 14px;
+      list-style: none;
+      color: #7d8590;
+      font-size: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas,
+        Liberation Mono, monospace !important;
+      cursor: pointer;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  
+  .Footer-left {
+    h1 {
+      margin-bottom: 30px;
+    }
+    p {
+      color: #7d8590;
+      font-size: 14px;
+    }
+   
+  }
+  button {
+    padding: 15px 30px;
+    border-radius: 6px;
+    color: white;
+    background: transparent;
+    border: 1px solid #57606a;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .Footer-right {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    justify-content: space-between;
+  }
+
+  .right-child ul{
+    list-style: none;
+    line-height: 30px;
+    
+  }
+  .Footer-Icon{
+    background-color:#30363d ;
+    padding: 10px 0;
+  }
+
+  .Footer-base{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    background-color: #30363d;
+  }
+  .Footerbase-left ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    color: white;
+    font-size: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas,
+    Liberation Mono, monospace !important;
+  }
+  .Footerbase-right {
+    display: flex;
+    justify-content: end;
+    gap: 25px;
+  }
+  .Footerbase-right img{
+    width: 3%;
+  }
